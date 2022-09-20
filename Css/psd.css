@@ -654,17 +654,26 @@ span
 .col-lg-3
 {
     color: #575757;
-    width: 215px;
-    
-    
+    width: 215px;   
 }
 
-.col-lg-3 a
+.col-lg-3 .quick-link
+{
+    color: #575757;
+}
+
+.col-lg-3 .quick-link:hover
+{
+    color: #ba2e1f;
+}
+
+
+.col-lg-3.extened
 {
     color:#575757; ;
 }
 
-.col-lg-3 a:hover
+.col-lg-3.extened:hover
 {
     color:#ba2e1f;
 }
