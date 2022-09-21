@@ -276,6 +276,7 @@ ul li ul li ul li:hover
     z-index:1;
     position: relative;
     
+    
    
     
 
@@ -812,6 +813,19 @@ strong
     color: #ba2e1f; 
 }
 
+.mean-container .mean-nav ul li a 
+{
+    padding-block: 20px;
+    
+    
+}
+
+.mean-container .mean-nav ul li li a 
+{  
+   padding-block: 20px;
+   
+}
+
 /* Tablate & Mobile Dropdown  */
 
 @media (min-width:240px) and (max-width:950px){
@@ -849,6 +863,8 @@ strong
    {
        background-color: transparent;
    }
+
+   
 
 
 }
